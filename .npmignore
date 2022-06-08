@@ -1,0 +1,14 @@
+.eslintignore
+.eslintrc
+.prettierrc
+.gitignore
+
+LICENSE
+README.md
+
+.github
+docs
+src
+test
+rollup.config.js
+svelte.config.js

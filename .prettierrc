@@ -1,0 +1,8 @@
+{
+  "printWidth": 80,
+  "plugins": ["svelte"],
+  "singleQuote": true,
+  "svelteAllowShorthand": true,
+  "svelteStrictMode": true,
+  "trailingComma": "all"
+}

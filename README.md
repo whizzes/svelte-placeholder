@@ -1,2 +1,7 @@
-# svelte-placeholder
-Customizable content placeholders to render in place of components while loading
+<div>
+  <h1 align="center">Svelte Placeholder</h1>
+  <h4 align="center">
+    Replicate components with shadow versions while content is not
+    yet available
+  </h4>
+</div>
