@@ -21,6 +21,10 @@
   "bugs": {
     "url": "https://github.com/EstebanBorai/svelte-placeholder/issues"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "keywords": [
     "svelte",
     "loader",
@@ -40,9 +44,11 @@
     "rollup": "^2.75.6",
     "rollup-plugin-svelte": "^7.1.0",
     "rollup-plugin-typescript2": "^0.32.1",
-    "svelte": "^3.48.0",
     "svelte-preprocess": "^4.10.7",
     "tslib": "^2.4.0",
     "typescript": "^4.7.3"
+  },
+  "peerDependencies": {
+    "svelte": "^3.48.0"
   }
 }

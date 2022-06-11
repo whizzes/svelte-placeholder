@@ -8,21 +8,32 @@ import pkg from './package.json';
 export default {
   input: 'src/index.ts',
   output: [
-    { file: pkg.module, format: 'es', sourcemap: true },
+    { file: pkg.module, format: 'es', name: pkg.name, sourcemap: true },
     {
       file: pkg.main,
       format: 'umd',
-      name: 'svelte-placeholder',
+      name: pkg.name,
       sourcemap: true,
     },
   ],
   plugins: [
-    commonjs(),
+    svelte({
+      include: 'src/components/**/*.svelte',
+      compilerOptions: {
+        generate: 'ssr',
+        hydratable: true,
+      }
+    }),
     typescript({
+      rootDir: './src',
       rollupCommonJSResolveHack: false,
       clean: true,
     }),
-    svelte(),
-    resolve(),
+    resolve({
+      browser: true,
+    }),
+    commonjs({
+      transformMixedEsModules: true,
+    }),
   ],
 };
