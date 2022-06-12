@@ -18,11 +18,12 @@ export default {
   ],
   plugins: [
     svelte({
+      emitCss: true,
       include: 'src/components/**/*.svelte',
       compilerOptions: {
         generate: 'ssr',
         hydratable: true,
-      }
+      },
     }),
     typescript({
       rootDir: './src',
