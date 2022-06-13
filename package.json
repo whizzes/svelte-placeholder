@@ -1,5 +1,5 @@
 {
-  "name": "svelte-placeholder",
+  "name": "svelte-content-placeholder",
   "version": "0.1.0-beta",
   "description": "",
   "main": "./dist/index.js",
@@ -15,12 +15,12 @@
   "author": "Esteban Borai <estebanborai@gmail.com> (https://estebanborai.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EstebanBorai/svelte-placeholder.git"
+    "url": "git+https://github.com/EstebanBorai/svelte-content-placeholder.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/EstebanBorai/svelte-placeholder#readme",
+  "homepage": "https://github.com/EstebanBorai/svelte-content-placeholder#readme",
   "bugs": {
-    "url": "https://github.com/EstebanBorai/svelte-placeholder/issues"
+    "url": "https://github.com/EstebanBorai/svelte-content-placeholder/issues"
   },
   "files": [
     "dist",

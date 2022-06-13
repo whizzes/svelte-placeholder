@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center">Svelte Placeholder</h1>
+  <h1 align="center">Svelte Content Placeholder</h1>
   <h4 align="center">
     Replicate components with shadow versions while content is not
     yet available
@@ -8,10 +8,10 @@
 
 <div align="center">
 
-![Build](https://github.com/EstebanBorai/svelte-placeholder/workflows/build/badge.svg)
-![Lint](https://github.com/EstebanBorai/svelte-placeholder/workflows/lint/badge.svg)
-[![Version](https://img.shields.io/npm/v/svelte-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-placeholder)
-[![Downloads](https://img.shields.io/npm/dm/svelte-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-placeholder)
+![Build](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/build/badge.svg)
+![Lint](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/lint/badge.svg)
+[![Version](https://img.shields.io/npm/v/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
+[![Downloads](https://img.shields.io/npm/dm/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ```svelte
 <script>
-  import Placeholder from 'svelte-placeholder';
+  import Placeholder from 'svelte-content-placeholder';
 </script>
 
 <Placeholder>
