@@ -13,6 +13,7 @@
 
 ![Build](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/build/badge.svg)
 ![Lint](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/lint/badge.svg)
+![Test](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/test/badge.svg)
 [![Version](https://img.shields.io/npm/v/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
 [![Downloads](https://img.shields.io/npm/dm/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
 
