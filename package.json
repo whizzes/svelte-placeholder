@@ -1,6 +1,6 @@
 {
   "name": "svelte-placeholder",
-  "version": "0.1.0",
+  "version": "0.1.0-beta",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -8,6 +8,7 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "check": "tsc --noEmit",
+    "dev": "rollup -c rollup.config.js --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. . && eslint --fix ."
   },

@@ -19,7 +19,7 @@ export default {
   plugins: [
     svelte({
       emitCss: true,
-      include: 'src/components/**/*.svelte',
+      include: ['src/components/**/*.svelte'],
       compilerOptions: {
         generate: 'ssr',
         hydratable: true,
