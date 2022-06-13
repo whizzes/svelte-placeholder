@@ -1,4 +1,7 @@
 <div>
+  <div align="center" style="display: block; text-align: center;">
+    <img alt="Example" src="docs/example.gif" width="120" />
+  </div>
   <h1 align="center">Svelte Content Placeholder</h1>
   <h4 align="center">
     Replicate components with shadow versions while content is not
