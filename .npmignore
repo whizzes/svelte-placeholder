@@ -1,14 +1,15 @@
 .DS_Store
 .eslintignore
 .eslintrc
-.prettierrc
 .gitignore
-
+.prettierrc
 LICENSE
 README.md
+rollup.config.js
+tsconfig.json
+vitest.config.ts
 
 .github
 docs
 src
 test
-rollup.config.js
