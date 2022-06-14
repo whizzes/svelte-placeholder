@@ -1,6 +1,6 @@
 {
   "name": "svelte-content-placeholder",
-  "version": "0.1.0-beta-1",
+  "version": "0.1.0-beta-2",
   "description": "",
   "svelte": "./src/index.js",
   "main": "./dist/index.js",
