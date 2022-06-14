@@ -31,7 +31,7 @@
 </script>
 
 <script>
-  import { uniqueId } from '../utils.ts';
+  import { uniqueId } from '../utils';
 
   /**
    * SVG Element `height` attribute value
