@@ -1,3 +1,3 @@
 /// <reference types="svelte" />
 
-export { default } from './components/Placeholder.svelte';
+export { default as default } from './components/Placeholder.svelte';
