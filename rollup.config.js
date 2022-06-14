@@ -1,6 +1,5 @@
 import commonjs from '@rollup/plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
-import typescript from 'rollup-plugin-typescript2';
 import resolve from '@rollup/plugin-node-resolve';
 import svelte from 'rollup-plugin-svelte';
 
@@ -12,7 +11,7 @@ const name = pkg.name
   .replace(/-\w/g, (m) => m[1].toUpperCase());
 
 export default {
-  input: 'src/index.ts',
+  input: 'src/index.js',
   output: [
     { file: pkg.module, format: 'es', name, sourcemap: true },
     {
@@ -36,11 +35,6 @@ export default {
         generate: 'ssr',
         hydratable: true,
       },
-    }),
-    typescript({
-      rootDir: './src',
-      rollupCommonJSResolveHack: false,
-      clean: true,
     }),
     resolve({
       browser: true,
