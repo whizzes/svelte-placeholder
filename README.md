@@ -11,15 +11,21 @@
 
 <div align="center">
 
-![Build](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/build/badge.svg)
-![Lint](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/lint/badge.svg)
-![Test](https://github.com/EstebanBorai/svelte-content-placeholder/workflows/test/badge.svg)
+![Build](https://github.com/whizzes/svelte-placeholder/workflows/build/badge.svg)
+![Lint](https://github.com/whizzes/svelte-placeholder/workflows/lint/badge.svg)
+![Test](https://github.com/whizzes/svelte-placeholder/workflows/test/badge.svg)
 [![Version](https://img.shields.io/npm/v/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
 [![Downloads](https://img.shields.io/npm/dm/svelte-content-placeholder.svg?style=flat)](https://www.npmjs.com/package/svelte-content-placeholder)
 
 </div>
 
-> **Warning**: Package under construction. API is subject to changes.
+## Getting Started
+
+To use the Svelte Placeholder library in your Svelte application, you can install it using npm:
+
+```bash
+npm install @whizzes/svelte-placeholder
+```
 
 ## Usage
 

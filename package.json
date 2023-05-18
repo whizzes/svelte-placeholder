@@ -1,11 +1,6 @@
 {
-  "name": "svelte-content-placeholder",
+  "name": "@whizzes/svelte-placeholder",
   "version": "0.1.0-beta-2",
-  "description": "",
-  "svelte": "./src/index.js",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "check": "tsc --noEmit",
@@ -13,16 +8,6 @@
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. . && eslint --fix .",
     "test": "vitest"
-  },
-  "author": "Esteban Borai <estebanborai@gmail.com> (https://estebanborai.com)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EstebanBorai/svelte-content-placeholder.git"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/EstebanBorai/svelte-content-placeholder#readme",
-  "bugs": {
-    "url": "https://github.com/EstebanBorai/svelte-content-placeholder/issues"
   },
   "files": [
     "dist",
