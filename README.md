@@ -45,6 +45,7 @@ npm install @whizzes/svelte-placeholder
   <rect x="90" y="110" rx="3" ry="3" width="60" height="10"></rect>
 </Placeholder>
 ```
+
 ## Development
 
 ```bash
