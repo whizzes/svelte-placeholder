@@ -45,3 +45,17 @@ npm install @whizzes/svelte-placeholder
   <rect x="90" y="110" rx="3" ry="3" width="60" height="10"></rect>
 </Placeholder>
 ```
+## Development
+
+```bash
+git clone git@github.com:whizzes/svelte-notifications.git
+cd ./svelte-notifications
+npm i
+npm run dev
+```
+
+## Contributing
+
+Feel free to open pull requests or issues on [our GitHub Repository][1].
+
+[1]: https://github.com/whizzes/svelte-placeholder
