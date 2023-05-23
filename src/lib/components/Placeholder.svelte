@@ -7,7 +7,7 @@
 			repeatCount: 'indefinite',
 			stopColor: '#C0C0C0',
 			stopOpacity: '0.5',
-			offset: '50%'
+			offset: '50%',
 		},
 		{
 			dur: `2s`,
@@ -16,7 +16,7 @@
 			repeatCount: 'indefinite',
 			stopColor: '#EAEAEA',
 			stopOpacity: '0.5',
-			offset: '50%'
+			offset: '50%',
 		},
 		{
 			dur: `2s`,
@@ -25,8 +25,8 @@
 			repeatCount: 'indefinite',
 			stopColor: '#C0C0C0',
 			stopOpacity: '0.5',
-			offset: '50%'
-		}
+			offset: '50%',
+		},
 	];
 </script>
 
