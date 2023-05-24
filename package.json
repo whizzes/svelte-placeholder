@@ -2,12 +2,16 @@
 	"name": "@whizzes/svelte-placeholder",
 	"version": "0.1.0-beta-2",
 	"scripts": {
-		"build": "rollup -c rollup.config.js",
-		"check": "tsc --noEmit",
-		"dev": "rollup -c rollup.config.js --watch",
-		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. . && eslint --fix .",
-		"test": "vitest"
+		"dev": "vite dev",
+		"build": "vite build && npm run package",
+		"preview": "vite preview",
+		"package": "svelte-kit sync && svelte-package && publint",
+		"prepublishOnly": "npm run package",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"test": "vitest",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"files": [
 		"dist",
