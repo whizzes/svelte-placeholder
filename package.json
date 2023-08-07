@@ -1,6 +1,6 @@
 {
   "name": "@whizzes/svelte-placeholder",
-  "version": "0.1.0-beta-2",
+  "version": "0.1.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -20,7 +20,11 @@
       "svelte": "./dist/index.js"
     }
   },
-  "files": ["dist", "!dist/**/*.test.*", "!dist/**/*.spec.*"],
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
   "peerDependencies": {
     "svelte": "^4.1.2"
   },
