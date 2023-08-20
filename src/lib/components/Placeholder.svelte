@@ -30,18 +30,18 @@
   ];
 </script>
 
-<script>
+<script lang="ts">
   import { uniqueId } from '../utils';
 
   /**
    * SVG Element `height` attribute value
    */
-  export let height = '200';
+  export let height: number | string = 200;
 
   /**
    * SVG Element `width` attribute value
    */
-  export let width = '200';
+  export let width: number | string = 200;
 
   /**
    * Unique ID for the `clipPath` element
