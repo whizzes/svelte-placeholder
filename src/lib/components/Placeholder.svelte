@@ -33,17 +33,6 @@
 <script lang="ts">
   import { uniqueId } from '../utils';
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
   interface Props {
     /**
    * SVG Element `height` attribute value

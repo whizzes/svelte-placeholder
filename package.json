@@ -20,11 +20,7 @@
       "svelte": "./dist/index.js"
     }
   },
-  "files": [
-    "dist",
-    "!dist/**/*.test.*",
-    "!dist/**/*.spec.*"
-  ],
+  "files": ["dist", "!dist/**/*.test.*", "!dist/**/*.spec.*"],
   "peerDependencies": {
     "svelte": "^4.2.2"
   },
@@ -33,7 +29,7 @@
     "@sveltejs/kit": "^2.5.27",
     "@sveltejs/package": "^2.3.7",
     "@sveltejs/vite-plugin-svelte": "^4.0.0",
-    "@testing-library/svelte": "^4.0.4",
+    "@testing-library/svelte": "^5.2.6",
     "jsdom": "^22.1.0",
     "publint": "^0.2.2",
     "svelte": "^5.0.0",
