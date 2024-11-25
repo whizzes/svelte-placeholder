@@ -1,4 +1,4 @@
-<script context="module">
+<script module>
   const DEFAULT_GRADIENTS = [
     {
       dur: `2s`,
@@ -33,32 +33,39 @@
 <script lang="ts">
   import { uniqueId } from '../utils';
 
-  /**
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  interface Props {
+    /**
    * SVG Element `height` attribute value
    */
-  export let height: number | string = 200;
-
-  /**
+    height?: number | string;
+    /**
    * SVG Element `width` attribute value
    */
-  export let width: number | string = 200;
-
-  /**
+    width?: number | string;
+    /**
    * Unique ID for the `clipPath` element
    */
-  export let clipPathId = uniqueId('clip_path');
-
-  /**
+    clipPathId?: any;
+    /**
    * Unique ID for the `linearGradient` element
    */
-  export let linearGradientId = uniqueId('linear_gradient');
-
-  /**
+    linearGradientId?: any;
+    /**
    * A11y name to render for this SVG element
    */
-  export let accesibleName = 'Placeholder';
-
-  /**
+    accesibleName?: string;
+    /**
    * Gradients to build the placeholder animation.
    *
    * These objects are mapped to `stop` and `animate` SVG object's attributes.
@@ -66,7 +73,19 @@
    * Each of them will span a `stop` object, wrapping an `animate` object at
    * the same time.
    */
-  export let gradients = DEFAULT_GRADIENTS;
+    gradients?: any;
+    children?: import('svelte').Snippet;
+  }
+
+  let {
+    height = 200,
+    width = 200,
+    clipPathId = uniqueId('clip_path'),
+    linearGradientId = uniqueId('linear_gradient'),
+    accesibleName = 'Placeholder',
+    gradients = DEFAULT_GRADIENTS,
+    children
+  }: Props = $props();
 </script>
 
 <svg {width} {height}>
@@ -98,9 +117,9 @@
       {/each}
     </linearGradient>
     <clipPath id={clipPathId}>
-      <slot>
+      {#if children}{@render children()}{:else}
         <rect {width} {height} x="0" y="0" rx="0" ry="0" />
-      </slot>
+      {/if}
     </clipPath>
     <!-- End: Graphical Objects Definitions -->
   </defs>
