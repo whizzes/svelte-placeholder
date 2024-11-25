@@ -31,7 +31,7 @@
 </script>
 
 <script lang="ts">
-  import { uniqueId } from '../utils';
+  import { uniqueId } from '../utils.js';
 
   interface Props {
     /**
